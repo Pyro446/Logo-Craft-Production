@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logo Craft Production</title>
+    <style>
+        /* Style général */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background-color: #f4f4f8;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Container global */
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        /* En-tête */
+        header {
+            text-align: center;
+            padding: 30px;
+        }
+        header img {
+            width: 120px;
+            margin-bottom: 20px;
+            border-radius: 50%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            font-size: 2.5em;
+            color: #2d2d2d;
+            margin-bottom: 10px;
+        }
+        header p {
+            font-size: 1.2em;
+            color: #555;
+        }
+
+        /* Section Services */
+        .section {
+            background: #ffffff;
+            border-radius: 20px;
+            padding: 40px;
+            margin: 20px 0;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+        .section h2 {
+            font-size: 2em;
+            color: #333;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .section p {
+            font-size: 1.1em;
+            color: #666;
+            line-height: 1.8;
+            text-align: center;
+        }
+
+        /* Points forts */
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            text-align: center;
+        }
+        .feature {
+            flex: 1 1 250px;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 15px;
+            background-color: #eef2f6;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s ease;
+        }
+        .feature:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+        }
+        .feature h3 {
+            color: #2d2d2d;
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        .feature p {
+            font-size: 1em;
+            color: #555;
+        }
+
+        /* Images de présentation */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin-top: 30px;
+        }
+        .gallery img {
+            width: 100%;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .gallery img:hover {
+            transform: scale(1.03);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Bouton Contact */
+        .contact-btn {
+            display: block;
+            width: 200px;
+            margin: 40px auto 0;
+            padding: 15px;
+            text-align: center;
+            font-size: 1.2em;
+            color: #fff;
+            background-color: #333;
+            border-radius: 30px;
+            text-decoration: none;
+            transition: background 0.3s ease;
+        }
+        .contact-btn:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- En-tête -->
+    <header>
+        <img src="URL_DE_LA_IMAGE_DU_LOGO" alt="Logo Logo Craft Production">
+        <h1>Logo Craft Production</h1>
+        <p>Conception de logos professionnels avec passion et précision.</p>
+    </header>
+
+    <!-- Services -->
+    <section class="section">
+        <h2>Nos Services</h2>
+        <p>Chez Logo Craft Production, nous transformons vos idées en une identité visuelle unique et mémorable. De la première esquisse à la livraison finale, nous nous assurons que chaque logo reflète parfaitement votre marque.</p>
+    </section>
+
+    <!-- Points forts -->
+    <section class="section">
+        <h2>Pourquoi choisir Logo Craft Production ?</h2>
+        <div class="features">
+            <div class="feature">
+                <h3>Livraison en 24h</h3>
+                <p>Votre logo livré dans un délai record, sans compromis sur la qualité.</p>
+            </div>
+            <div class="feature">
+                <h3>Service personnalisé</h3>
+                <p>Nous écoutons attentivement vos besoins pour créer un logo à votre image.</p>
+            </div>
+            <div class="feature">
+                <h3>Taux de satisfaction élevé</h3>
+                <p>Plus de 95% de nos clients sont ravis de leur nouveau logo.</p>
+            </div>
+            <div class="feature">
+                <h3>Professionnalisme et qualité</h3>
+                <p>Nous sommes fiers de fournir un service fiable et des résultats de qualité supérieure.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galerie -->
+    <section class="section">
+        <h2>Quelques-unes de nos créations</h2>
+        <div class="gallery">
+            <img src="URL_DE_LA_IMAGE_1" alt="Logo 1">
+            <img src="URL_DE_LA_IMAGE_2" alt="Logo 2">
+            <img src="URL_DE_LA_IMAGE_3" alt="Logo 3">
+            <img src="URL_DE_LA_IMAGE_4" alt="Logo 4">
+        </div>
+    </section>
+
+    <!-- Bouton Contact -->
+    <a href="#contact" class="contact-btn">Contactez-nous</a>
+
+</body>
+</html>
